@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 12px;
+    display: inline-block;
+}
+html{
+    height: 1500px;
+}
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #fff;
+    position: sticky;
+    top: 0;
+}
+.fa-home{
+    font-size: 13px;
+}
+.fa-search{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.logo{
+    background-color: #009688;
+}
+a:hover{
+    background-color: rgb(156, 153, 153);
+}
+.parent-link{
+    background-color: rosybrown;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 360px;
+    visibility: hidden;
+}
+.drop:hover + .parent-link{
+    visibility:visible ;
+}
+/* img */
+.main-img{
+    width: 100%;
+    height: 600px;
+}
+.learn{
+    font-size: 35px;
+    color: white;
+    position: relative;
+    bottom:  90px;
+    left: 50px;
+    background-color: black;
+}
+.learn:hover{
+    background-color: teal;
+}
+    /* division */
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.our-team , .meet{
+    text-align: center;
+}
+.our-team{
+    margin-bottom: 14px;
+}
+.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.john{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.division{
+    text-align: center;
+     margin-top: 40px;
+}
+/* our-work */
+.gray{
+    background-color: #333333;
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;  
+     justify-content: space-around;  
+}
+.white{
+    background-color: #fff;
+    height: 360px;
+    width: 23%;
+    line-height: 30px;
+}
+.ss{
+    height: 160px;
+    width: 100%;
+}
+.our-work{
+    width: 25%;
+    color: #fff;
+}
+.white h3, .white p{
+    padding-left: 12px;
+}
+.our-work h2 {
+    margin-bottom: 20px;
+}
+.our-work p{
+    margin-left: 7px;
+    line-height: 1.5;
+}
