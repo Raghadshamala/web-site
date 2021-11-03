@@ -6,4 +6,4 @@
 - HTML
 - CSS
  ***
- ![](img/screenshot--2021.10.26-20_14_43.png)
+ ![](screenshot-raghadshamala.github.io-2021.11.03-20_38_33.png)
